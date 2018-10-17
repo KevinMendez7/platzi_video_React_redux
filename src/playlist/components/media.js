@@ -11,7 +11,7 @@ class Media extends PureComponent{
   //     author: "Kevin Test"
   //   }
   handleClick = event =>{
-    this.props.openModal(this.props)
+    this.props.openModal(this.props.id)
   }
   render(){
     return(
@@ -23,9 +23,9 @@ class Media extends PureComponent{
             width={260}
             height={160}
           />
-          <h3 className="Media-title">{this.props.title}</h3>
-          <p className="Media-author">{this.props.author}</p>
         </div>
+        <h3 className="Media-title">{this.props.title}</h3>
+        <p className="Media-author">{this.props.author}</p>
       </div>
     )
   }

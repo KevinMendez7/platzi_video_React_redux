@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import Media from './media'
+// import Media from './media'
+import Media from '../container/media'
 import './playlist.css'
 
 //Functional Component = Ahorra mas codigo
@@ -13,8 +14,8 @@ function Playlist(props){
             return(
               <Media
                 openModal={props.handleOpenModalClick}
-                {...item}
-                key={item.id}
+                id={item}
+                key={item}
               />
             )
           })

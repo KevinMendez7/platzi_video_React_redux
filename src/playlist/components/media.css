@@ -5,6 +5,7 @@
   width: 260px;
   /* height: 150px; */
   vertical-align: top;
+  margin-bottom: 15px;
 }
 
 .Media:hover .Media-cover {
