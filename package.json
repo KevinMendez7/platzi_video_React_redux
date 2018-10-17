@@ -15,11 +15,11 @@
   "author": "Kevin Mendez <kevin_33_6@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "babel-preset-stage-2": "6.24.1",
     "babel-core": "6.26.0",
     "babel-loader": "7.1.2",
     "babel-preset-es2015": "6.24.1",
     "babel-preset-react": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
     "clean-webpack-plugin": "^0.1.17",
     "css-loader": "0.28.7",
     "extract-text-webpack-plugin": "3.0.2",
@@ -27,7 +27,7 @@
     "style-loader": "0.19.0",
     "url-loader": "0.6.2",
     "webpack": "3.8.1",
-    "webpack-dev-server": "2.9.3"
+    "webpack-dev-server": "^3.1.9"
   },
   "dependencies": {
     "immutable": "^3.8.2",
